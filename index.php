@@ -1,0 +1,128 @@
+<?php
+	include( "lib/get_tweets.php" );
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Bowling Thunder - 2 Teams, 20 Pins, Gratuitous Amounts of Awesome</title>
+	<meta name="description" content="Bowling Thunder is, without a doubt, the most electrifying athletic competition to take place between startups in the Washington, DC, metro area." />
+	<meta name="keywords" content="bowling, thunder, bowling thunder, viget labs, viget, mixx, mixx.com, washington dc, electric, thunder, lightning storm" />
+	<link rel="alternate" type="application/atom+xml" href="http://search.twitter.com/search.atom?q=%40bowlingthunder" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://yui.yahooapis.com/2.5.2/build/reset/reset-min.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/screen.css" />
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="screen" href="stylesheets/buggy.css" /><![endif]-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/thunder.min.js"></script>
+</head>
+
+<body>
+
+	<div id="doc">
+		<div id="hd" class="vcard">
+			<h1><a href="http://www.bowlingthunder.org/" rel="me self" class="url"><img src="images/logo.png" class="photo" alt="Bowling Thunder" /></a></h1>
+			<span class="summary fn org alt"><a href="#twitter" class="include">Bowling Thunder</a></span>
+		</div>
+		<div id="bd" class="clear">
+			<div id="mixx" class="col team">
+				<h2><img src="images/mixx-logo.gif" alt="Team Mixx" /></h2>
+				<ul>
+					<li class="vcard">
+						<h3 class="fn">Kerry Parkins</h3>
+						<p class="note">Rolled with the Bowling Stones at Altamont</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Joe Dzikiewicz</h3>
+						<p class="note">Pins quake in fear at his approach</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Kori Hill</h3>
+						<p class="note">Lightning bolt! Lightning bolt!</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Jason Garber</h3>
+						<p class="note">Never met a frame he didn't close</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Doug March</h3>
+						<p class="note">Beware the Ides of March</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Nathaniel Collinsworth</h3>
+						<p class="note">On-call 24/7/365 to support all your pin-crushing needs</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Will Kern</h3>
+						<p class="note">Mr. 301</p>
+					</li>
+				</ul>
+			</div>
+			<div id="content" class="col">
+				<div class="vevent">
+					<h2 class="description"><a href="#hd" class="include alt">2 Teams, 20 Pins</a></h2>
+					<p><abbr class="dtstart" title="2008-08-08T18:30:00">6:30pm, August 8th, 2008</abbr></p>
+					<div class="vcard">					
+						<address class="adr">
+							<a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=Bowl+America,+Falls+Church,+VA&amp;ie=UTF8&amp;ll=38.882715,-77.172904&amp;spn=0.009588,0.016565&amp;z=16" class="fn org">Bowl America</a>
+							<abbr class="geo" title="38.882715;-77.172904">
+								<span class="street-address">140 South Maple Ave.</span>, 
+								<span class="locality">Falls Church</span>, <abbr class="region" title="Virginia">VA</abbr>
+							</abbr>
+						</address>
+					</div>
+				</div>
+				
+				<h3 id="twitter"><a href="http://www.twitter.com/bowlingthunder" rel="me" class="url"><span class="alt">Tweet @BowlingThunder</span></a></h3>
+				<div id="loader"><img src="images/loader.gif" alt="" /></div>
+				<div id="tweets">
+					<?php echo get_tweets(); ?>
+				</div>
+			</div>
+			<div id="viget" class="col team">
+				<h2><img src="images/viget-logo.gif" alt="Team Viget" /></h2>
+				<ul>
+					<li class="vcard">
+						<h3 class="fn">Brian Williams</h3>
+						<p class="note">1.21 Gigawatts</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Kevin Vigneault</h3>
+						<p class="note">A solid bolt of lightning in the form of a man</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Cindy Caldwell</h3>
+						<p class="note">Uncontrollable Fury</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Stephanie Hay</h3>
+						<p class="note">Rogue Thunderess</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Ryan Moede</h3>
+						<p class="note">The fastest human alive</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Todd Bayliss</h3>
+						<p class="note">&iexcl;El tomador de piel!</p>
+					</li>
+					<li class="vcard">
+						<h3 class="fn">Jackson Wilkinson</h3>
+						<p class="note">Mr. 300</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="ft">
+			<p><span class="vcard"><a href="http://www.mixx.com/" class="fn url org">Mixx</a></span> and <span class="vcard"><a href="http://www.viget.com/" class="fn url org">Viget Labs</a></span> brought it.</p>
+			<p>Want to throw down the flaming electrical gauntlet? <span class="email" title="jason|sixtwothree|org">Email us!</span></p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker( "UA-5230764-1" );
+		pageTracker._trackPageview();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* ----- Generic styles --------------------------------------------------*/
+html { background: #16131e; }
+
+body {
+	font: 62.5%/1 "Lucida Grande", Arial, Helvetica, sans-serif;
+	color: #fff;
+	background: #0e0b17 url("../images/body-bg.gif") repeat-y 50% 0;
+}
+
+b { font-weight: normal; }
+a { text-decoration: none; }
+
+
+/* ----- Generic classes -------------------------------------------------*/
+.alt { position: absolute; left: -9999px; }
+.clear:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
+
+
+/* ----- Layout ----------------------------------------------------------*/
+div#doc { padding-top: 20px; background: url("../images/doc-bg.png") no-repeat 50% 0; }
+div#hd, div#bd { width: 918px; margin: 0 auto; }
+
+div#hd { height: 300px; text-align: center; }
+
+div.col { float: left; }
+div.team { width: 258px; padding-top: 24px; }
+div#mixx { padding-right: 48px; text-align: right; }
+div#viget { padding-left: 48px; }
+div#content { width: 306px; }
+
+div.team h2 { margin-bottom: 36px; }
+div.team li.vcard { margin: 0 0 36px 0; }
+div.team h3.fn { font: italic 200%/1 Georgia, "Times New Roman", serif; }
+div.team p.note { margin-top: 0.6em; font-size: 120%; line-height: 1.4em; color: #4d4051; }
+
+div.vevent { height: 151px; padding: 84px 24px 0 24px; font-size: 120%; text-align: center; color: #6e2a57; background: url("../images/vevent-bg.gif") no-repeat 0 0; }
+div.vevent h2.description { height: 37px; margin: 0 0 8px 0; background: url("../images/vevent-description-bg.gif") no-repeat 50% 0; }
+div.vevent p, div.vevent div.vcard { line-height: 1.4em; }
+div.vevent abbr.dtstart { font-weight: bold; }
+div.vevent a { color: #6e2a57; }
+div.vevent abbr.geo { display: block; }
+
+div#content h3 { margin-bottom: 24px; padding: 0 24px; }
+div#content h3 a { display: block; height: 17px; background: url("../images/tweet-bg.gif") no-repeat 50% 0; }
+div#loader { display: none; padding-bottom: 24px; text-align: center; }
+ol.hfeed { padding: 0 24px 12px 24px; }
+li.hentry { margin-bottom: 24px; }
+li.hentry p.entry-content { margin-bottom: 0.5em; font-size: 120%; line-height: 1.6em; color: #1f1b1b; }
+li.hentry p.entry-content a { color: #8f45a9; }
+li.hentry p.entry-content a:hover { color: #6e2a57; }
+li.hentry p.vcard { font-size: 120%; font-style: italic; color: #b7b7b7; }
+li.hentry p.vcard a { color: #b7b7b7; }
+li.hentry p.vcard a:hover { color: #808080; }
+li.hentry p.vcard abbr { margin: 0 0.4em 0 0; }
+
+ul.pagination { padding: 0 24px 48px 24px; }
+ul.pagination li { font-size: 120%; text-align: center; }
+ul.pagination li.previous { float: left; }
+ul.pagination li.next { float: right; }
+ul.pagination li a { display: block; border: 2px solid #e1e1e1; padding: 6px 24px; color: #8f45a9; }
+ul.pagination li a:hover { border-color: #b7b7b7; color: #6e2a57; }
+
+div#ft { min-height: 276px; padding-top: 24px; background: #06050b url("../images/ft-bg.gif") no-repeat 50% 0; }
+div#ft p { width: 258px; margin: 0 auto 1em auto; padding-left: 660px; font-size: 120%; line-height: 1.4em; }
+div#ft a { border-bottom: 1px solid #2a4d5b; color: #4cdfff; }
