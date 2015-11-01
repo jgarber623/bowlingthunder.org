@@ -111,8 +111,18 @@
 		</div>
 	</div>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-	<script src="javascripts/thunder.js"></script>
+	<script>
+		if ('querySelector' in document) {
+			var s = document.querySelector('#ft .email'),
+				a = document.createElement('a');
+
+			a.href = 'mailto:' + s.title.replace(/\|/, '@').replace(/\|/, '.') + '?subject=Bowling%20Thunder';
+			a.innerHTML = s.innerHTML;
+
+			s.innerHTML = '';
+			s.appendChild(a);
+		}
+	</script>
 
 </body>
 </html>
