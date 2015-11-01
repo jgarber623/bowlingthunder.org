@@ -1,4 +1,4 @@
-# Bowling Thunder #
+# Bowling Thunder
 
 Bowling Thunder is, without a doubt, the most electrifying athletic competition to take place between startups in the Washington, DC, metro area. It happened once; it could happen again.
 
