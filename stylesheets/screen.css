@@ -21,29 +21,29 @@ abbr {
 
 /* ----- Generic classes -------------------------------------------------*/
 .alt {
-	position: absolute;
 	left: -9999px;
+	position: absolute;
 }
 
 .clear:after {
-	display: block;
-	visibility: hidden;
 	clear: both;
-	height: 0;
 	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
 }
 
 
 /* ----- Layout ----------------------------------------------------------*/
 #doc {
-	padding-top: 20px;
 	background: url("../images/doc-bg.png") no-repeat 50% 0;
+	padding-top: 20px;
 }
 
 #hd,
 #bd {
-	width: 918px;
 	margin: 0 auto;
+	width: 918px;
 }
 
 #hd {
@@ -56,8 +56,8 @@ abbr {
 }
 
 .team {
-	width: 258px;
 	padding-top: 24px;
+	width: 258px;
 }
 
 #mixx {
@@ -86,25 +86,25 @@ abbr {
 }
 
 .team .note {
-	margin-top: 0.6em;
+	color: #4d4051;
 	font-size: 120%;
 	line-height: 1.4em;
-	color: #4d4051;
+	margin-top: 0.6em;
 }
 
 .vevent {
+	background: url("../images/vevent-bg.gif") no-repeat 0 0;
+	color: #6e2a57;
+	font-size: 120%;
 	height: 151px;
 	padding: 84px 24px 0 24px;
-	font-size: 120%;
 	text-align: center;
-	color: #6e2a57;
-	background: url("../images/vevent-bg.gif") no-repeat 0 0;
 }
 
 .vevent .description {
+	background: url("../images/vevent-description-bg.gif") no-repeat 50% 0;
 	height: 37px;
 	margin: 0 0 8px 0;
-	background: url("../images/vevent-description-bg.gif") no-repeat 50% 0;
 }
 
 .vevent p,
@@ -130,23 +130,23 @@ abbr {
 }
 
 #content h3 a {
+	background: url("../images/tweet-bg.gif") no-repeat 50% 0;
 	display: block;
 	height: 17px;
-	background: url("../images/tweet-bg.gif") no-repeat 50% 0;
 }
 
 #ft {
+	background: #06050b url("../images/ft-bg.gif") no-repeat 50% 0;
 	min-height: 276px;
 	padding-top: 24px;
-	background: #06050b url("../images/ft-bg.gif") no-repeat 50% 0;
 }
 
 #ft p {
-	width: 258px;
-	margin: 0 auto 1em auto;
-	padding-left: 660px;
 	font-size: 120%;
 	line-height: 1.4em;
+	margin: 0 auto 1em auto;
+	padding-left: 660px;
+	width: 258px;
 }
 
 #ft a {
