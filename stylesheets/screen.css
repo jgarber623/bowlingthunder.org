@@ -13,7 +13,8 @@ b {
 	font-weight: normal;
 }
 
-a {
+a,
+abbr {
 	text-decoration: none;
 }
 
