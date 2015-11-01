@@ -1,3 +1,13 @@
-h1#logo { width: 352px; height: 282px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/logo.png",sizingMethod="scale"); }
-h1#logo img { visibility: hidden; }
-div#ft { height: 276px; }
+#logo {
+	height: 282px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/logo.png",sizingMethod="scale");
+	width: 352px;
+}
+
+#logo img {
+	visibility: hidden;
+}
+
+#ft {
+	height: 276px;
+}
