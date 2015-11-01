@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www\.bowlingthunder\.org$ [NC]
-RewriteRule ^(.*)$ http://www.bowlingthunder.org/$1 [L,R=301]
-AddHandler php5-script .php
